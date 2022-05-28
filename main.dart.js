@@ -39077,9 +39077,10 @@ m=o/n
 l=s<q
 if(Math.abs(m*((l?-1:1)-q)+p)<=1)if(l){J.bp(f.cq(),j,-1)
 J.bp(f.cq(),i,m*(-1-q)+p)}else{J.bp(f.cq(),j,1)
-J.bp(f.cq(),i,m*(1-q)+p)}else if(r<p){J.bp(f.cq(),j,n/o*(-1-p)+q)
-J.bp(f.cq(),i,-1)}else{J.bp(f.cq(),j,(q-s)/(p-r)*(1-r)+q)
-J.bp(f.cq(),i,1)}o=p-r
+J.bp(f.cq(),i,m*(1-q)+p)}else{o=n/o
+if(r<p){J.bp(f.cq(),j,o*(-1-p)+q)
+J.bp(f.cq(),i,-1)}else{J.bp(f.cq(),j,o*(1-p)+q)
+J.bp(f.cq(),i,1)}}o=p-r
 q-=s
 n=o/q
 if(Math.abs(n*((l?1:-1)-s)+r)<=1)if(l){J.bp(f.cq(),h,1)
